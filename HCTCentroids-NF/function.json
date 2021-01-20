@@ -5,14 +5,14 @@
       "name": "msg",
       "type": "queueTrigger",
       "direction": "in",
-      "queueName": "native",
+      "queueName": "outqueue2",
       "connection": "zzzzzz_STORAGE"
     },
     {
     "type": "queue",
     "direction": "out",
     "name": "msg1",
-    "queueName": "tech1",
+    "queueName": "outqueue3",
     "connection": "zzzzzz_STORAGE"
     }
   ]
