@@ -10,7 +10,7 @@ Each queue in Azure Storage is a container of messages and can store upto 500tb 
 
 This function has two queues in use. Check the function bindings in the function.json file
 
-"outqueue1" is the trigger queue. When it receives a message, it starts the function."outqueue2" is the output queue, the functions deposits the very message that triggered it once it has successfully run. The intention is that when "outqueue2" receives the new message it triggers https://github.com/Mungakha/Serverless_GeoAnalytics_Queue-Trigger2
+"outqueue2" is the trigger queue. When it receives a message, it starts the function."outqueue3" is the output queue, the functions deposits the very message that triggered it once it has successfully run. The intention is that when "outqueue2" receives the new message it triggers https://github.com/Mungakha/Serverless_GeoAnalytics_Queue-Trigger2
 
 Serverless_GeoAnalytics_Queue-Trigger1 function has been embedded with a python code running of multiple libraries.
 
